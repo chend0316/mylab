@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base",
+  "compilerOptions": {
+    "outDir": "dist",
+    "jsx": "react-jsx",
+  },
+  "include": ["src/main/**/*.ts"],
+  "exclude": ["node_modules", "dist", "vite.config.ts"]
+}
